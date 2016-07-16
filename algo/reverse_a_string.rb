@@ -4,8 +4,19 @@
 
 def reverse_a_string(string)
 
-  
-  
+  string_array = string.scan(/\w/)
+
+  reversed_string = ""
+
+  index = string_array.length
+
+  index.times do
+    index -= 1
+    reversed_string += string_array[index]
+  end
+
+  return reversed_string
+
 end
 
 # Driver code - don't touch anything below this line.
