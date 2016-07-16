@@ -2,7 +2,7 @@
 
 def find_longest_word(sentence)
 
-  sentence_array = sentence.split(/\W+/)
+  sentence_array = sentence.split
 
   longest_word = sentence_array[0]
 
